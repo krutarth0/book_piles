@@ -77,6 +77,7 @@ WSGI_APPLICATION = 'book_piles.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
+#use the sqlite3 if ,ysql is not configured
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -140,5 +141,5 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'krutarthpatel1998@gmail.com'
-EMAIL_HOST_PASSWORD = 'pqukvrkgavzncvmp'
+EMAIL_HOST_USER = 'example@example.com' #enter the email 
+EMAIL_HOST_PASSWORD = '' #enter the google app password here for email 
